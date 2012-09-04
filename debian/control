@@ -68,31 +68,6 @@ Description: Qt 5 script private development files
  .
  Use at your own risk.
 
-Package: qtscript5-dbg
-Priority: extra
-Architecture: any
-Section: debug
-Depends: libqtscript5 (= ${binary:Version}),
-         libqtscripttools5 (= ${binary:Version}),
-         ${misc:Depends}
-Description: Qt 5 script libraries debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 script libraries.
-
-Package: qtscript5-examples-dbg
-Priority: extra
-Architecture: any
-Section: debug
-Depends: qtscript5-examples (= ${binary:Version}), ${misc:Depends}
-Recommends: qtbase5-dbg
-Description: Qt 5 script examples debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 script examples.
-
 Package: qtscript5-examples
 Architecture: any
 Section: x11
@@ -102,3 +77,17 @@ Description: Qt 5 script examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 script examples.
+
+Package: qtscript5-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: libqtscript5 (= ${binary:Version}),
+         libqtscripttools5 (= ${binary:Version}),
+         qtscript5-examples (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 5 script libraries debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 script libraries.
