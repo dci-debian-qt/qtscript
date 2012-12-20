@@ -8,7 +8,19 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 %:
-	dh $@ --list-missing --parallel --with pkgkde_symbolshelper --dbg-package=qtscript5-dbg 
+	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper --dbg-package=qtscript5-dbg 
+
+override_dh_auto_configure:
+	qmake
+
+override_dh_auto_install:
+	make install INSTALL_ROOT=$(CURDIR)/debian/tmp STRIP=echo
+	
+	# Remove la files (http://wiki.debian.org/ReleaseGoals/LAFileRemoval)
+	rm -f debian/tmp/usr/lib/*/libQt5ScriptTools.la
+	rm -f debian/tmp/usr/lib/*/libQt5Script.la
+
+override_dh_builddeb:
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
