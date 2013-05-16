@@ -47,7 +47,7 @@ Description: Qt 5 script tools module
 Package: qtscript5-dev
 Section: libdevel
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5script5 (= ${binary:Version}),
          libqt5scripttools5 (= ${binary:Version}),
          ${misc:Depends}
@@ -61,8 +61,8 @@ Description: Qt 5 script development files
 Package: qtscript5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Depends: qtscript5-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: qtscript5-dev (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 script private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
