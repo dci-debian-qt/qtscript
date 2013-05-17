@@ -25,3 +25,6 @@ override_dh_install:
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
 
+prune-nonfree:
+	rm -f tests/benchmarks/script/sunspider/*
+	rm -f tests/benchmarks/script/v8/*
