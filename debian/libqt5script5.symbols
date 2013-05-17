@@ -296,7 +296,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN28QScriptClassPropertyIteratorD0Ev@Base 5.0.2
  _ZN28QScriptClassPropertyIteratorD1Ev@Base 5.0.2
  _ZN28QScriptClassPropertyIteratorD2Ev@Base 5.0.2
- _ZN9QHashData8willGrowEv@Base 5.0.2
+ (optional=gccinternal)_ZN9QHashData8willGrowEv@Base 5.0.2
  _ZNK11QScriptable10thisObjectEv@Base 5.0.2
  _ZNK11QScriptable13argumentCountEv@Base 5.0.2
  _ZNK11QScriptable6engineEv@Base 5.0.2
