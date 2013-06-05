@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 alpha amd64 hurd-i386 i386 ia64 powerpc
 libQt5Script.so.5 libqt5script5 #MINVER#
  _Z14qScriptConnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
  _Z17qScriptDisconnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
@@ -277,13 +277,13 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN24QScriptSyntaxCheckResultD1Ev@Base 5.0.2
  _ZN24QScriptSyntaxCheckResultD2Ev@Base 5.0.2
  _ZN24QScriptSyntaxCheckResultaSERKS_@Base 5.0.2
- _ZN25QScriptEngineAgentPrivate11atStatementERKN5QTJSC17DebuggerCallFrameEli@Base 5.0.2
- _ZN25QScriptEngineAgentPrivate11returnEventERKN5QTJSC17DebuggerCallFrameEli@Base 5.0.2
- _ZN25QScriptEngineAgentPrivate12evaluateStopERKN5QTJSC7JSValueEl@Base 5.0.2
- _ZN25QScriptEngineAgentPrivate12functionExitERKN5QTJSC7JSValueEl@Base 5.0.2
- _ZN25QScriptEngineAgentPrivate14exceptionCatchERKN5QTJSC17DebuggerCallFrameEl@Base 5.0.2
- _ZN25QScriptEngineAgentPrivate14exceptionThrowERKN5QTJSC17DebuggerCallFrameElb@Base 5.0.2
- _ZN25QScriptEngineAgentPrivate18didReachBreakpointERKN5QTJSC17DebuggerCallFrameEli@Base 5.0.2
+ (subst)_ZN25QScriptEngineAgentPrivate11atStatementERKN5QTJSC17DebuggerCallFrameE{ssize_t}i@Base 5.0.2
+ (subst)_ZN25QScriptEngineAgentPrivate11returnEventERKN5QTJSC17DebuggerCallFrameE{ssize_t}i@Base 5.0.2
+ (subst)_ZN25QScriptEngineAgentPrivate12evaluateStopERKN5QTJSC7JSValueE{ssize_t}@Base 5.0.2
+ (subst)_ZN25QScriptEngineAgentPrivate12functionExitERKN5QTJSC7JSValueE{ssize_t}@Base 5.0.2
+ (subst)_ZN25QScriptEngineAgentPrivate14exceptionCatchERKN5QTJSC17DebuggerCallFrameE{ssize_t}@Base 5.0.2
+ (subst)_ZN25QScriptEngineAgentPrivate14exceptionThrowERKN5QTJSC17DebuggerCallFrameE{ssize_t}b@Base 5.0.2
+ (subst)_ZN25QScriptEngineAgentPrivate18didReachBreakpointERKN5QTJSC17DebuggerCallFrameE{ssize_t}i@Base 5.0.2
  _ZN25QScriptEngineAgentPrivate6attachEv@Base 5.0.2
  _ZN25QScriptEngineAgentPrivate6detachEv@Base 5.0.2
  _ZN25QScriptExtensionInterfaceD0Ev@Base 5.0.2
