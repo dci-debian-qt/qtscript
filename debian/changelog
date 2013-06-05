@@ -1,5 +1,7 @@
 qtscript-opensource-src (5.0.2+dfsg-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * debian/control: remove extra ${misc:Pre-Depends} from qtscript5-examples.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Jun 2013 20:57:06 +0200
 
