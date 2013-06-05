@@ -1,3 +1,8 @@
+qtscript-opensource-src (5.0.2+dfsg-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Jun 2013 19:39:32 +0200
+
 qtscript-opensource-src (5.0.2+dfsg-1) experimental; urgency=low
 
   * Initial release. (Closes: #697509)
