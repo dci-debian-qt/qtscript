@@ -3,19 +3,19 @@ qtscript-opensource-src (5.0.2+dfsg-3) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * debian/control: remove extra ${misc:Pre-Depends} from qtscript5-examples.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Jun 2013 20:57:06 +0200
-
-qtscript-opensource-src (5.0.2+dfsg-2) experimental; urgency=low
-
-  [ Pino Toscano ]
-  * Update symbols file.
-
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Build the documentation shipped with this submodule as a build-indep task:
     - Add the necessary indep build dependencies:
       * qttools5-dev-tools to use qhelpgenerator.
       * libqt5sql5-sqlite to generate qch doc.
     - Build and create packages for qch and HTML doc formats.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Jun 2013 20:57:06 +0200
+
+qtscript-opensource-src (5.0.2+dfsg-2) experimental; urgency=low
+
+  [ Pino Toscano ]
+  * Update symbols file.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 05 Jun 2013 15:06:13 -0300
 
