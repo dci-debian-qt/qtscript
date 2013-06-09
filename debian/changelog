@@ -10,6 +10,12 @@ qtscript-opensource-src (5.0.2+dfsg-2) experimental; urgency=low
   [ Pino Toscano ]
   * Update symbols file.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Build the documentation shipped with this submodule as a build-indep task:
+    - Add the necessary indep build dependencies:
+      * qttools5-dev-tools to use qhelpgenerator.
+      * libqt5sql5-sqlite to generate qch doc.
+
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 05 Jun 2013 15:06:13 -0300
 
 qtscript-opensource-src (5.0.2+dfsg-1) experimental; urgency=low
