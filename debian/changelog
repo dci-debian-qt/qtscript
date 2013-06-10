@@ -2,6 +2,8 @@ qtscript-opensource-src (5.0.2+dfsg-3) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * debian/control: remove extra ${misc:Pre-Depends} from qtscript5-examples.
+  * Copy patch s390x_jscore.diff from qt4-x11 (which is a backport of an
+    upstream commit) to support s390/s390x.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Build the documentation shipped with this submodule as a build-indep task:
