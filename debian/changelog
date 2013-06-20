@@ -12,6 +12,7 @@ qtscript-opensource-src (5.0.2+dfsg-3) UNRELEASED; urgency=low
       * libqt5sql5-sqlite to generate qch doc.
     - Build and create packages for qch and HTML doc formats.
   * Update symbols file.
+  * Make qtscript5-dbg M-A same to allow debugging symbols coinstalability.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Jun 2013 20:57:06 +0200
 
