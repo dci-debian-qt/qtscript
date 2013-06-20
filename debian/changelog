@@ -1,4 +1,4 @@
-qtscript-opensource-src (5.0.2+dfsg-3) UNRELEASED; urgency=low
+qtscript-opensource-src (5.0.2+dfsg-3) experimental; urgency=low
 
   [ Pino Toscano ]
   * debian/control: remove extra ${misc:Pre-Depends} from qtscript5-examples.
@@ -14,7 +14,7 @@ qtscript-opensource-src (5.0.2+dfsg-3) UNRELEASED; urgency=low
   * Update symbols file.
   * Make qtscript5-dbg M-A same to allow debugging symbols coinstalability.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Jun 2013 20:57:06 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 20 Jun 2013 19:45:49 -0300
 
 qtscript-opensource-src (5.0.2+dfsg-2) experimental; urgency=low
 
