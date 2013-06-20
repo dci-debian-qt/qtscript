@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 alpha amd64 hurd-i386 i386 ia64 powerpc
+# SymbolsHelper-Confirmed: 5.0.2 alpha amd64 armhf hurd-i386 i386 ia64 powerpc s390
 libQt5Script.so.5 libqt5script5 #MINVER#
  _Z14qScriptConnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
  _Z17qScriptDisconnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
@@ -296,7 +296,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN28QScriptClassPropertyIteratorD0Ev@Base 5.0.2
  _ZN28QScriptClassPropertyIteratorD1Ev@Base 5.0.2
  _ZN28QScriptClassPropertyIteratorD2Ev@Base 5.0.2
- (optional=gccinternal)_ZN9QHashData8willGrowEv@Base 5.0.2
+ (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN9QHashData8willGrowEv@Base 5.0.2
  _ZNK11QScriptable10thisObjectEv@Base 5.0.2
  _ZNK11QScriptable13argumentCountEv@Base 5.0.2
  _ZNK11QScriptable6engineEv@Base 5.0.2
