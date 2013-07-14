@@ -4,6 +4,10 @@ qtscript-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
   * New upstream release.
   * Fix watch file.
   * Bump Qt dependencies to 5.1.0~.
+  * Make libqt5script5 provide qtscript-api-5-1-0.
+    In this way we can know if external packages are using private headers.
+    - Add the necessary options in the symbols file.
+    - Add mark_private_symbols.sh.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Jun 2013 11:22:55 -0300
 
