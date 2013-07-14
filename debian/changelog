@@ -8,6 +8,7 @@ qtscript-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     In this way we can know if external packages are using private headers.
     - Add the necessary options in the symbols file.
     - Add mark_private_symbols.sh.
+    - Mark private symbols.
   * Update install files.
   * Update symbols files.
 

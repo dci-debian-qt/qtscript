@@ -171,9 +171,9 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN18QScriptEngineAgent14positionChangeExii@Base 5.0.2
  _ZN18QScriptEngineAgent9extensionENS_9ExtensionERK8QVariant@Base 5.0.2
  _ZN18QScriptEngineAgentC1EP13QScriptEngine@Base 5.0.2
- _ZN18QScriptEngineAgentC1ER25QScriptEngineAgentPrivateP13QScriptEngine@Base 5.0.2
+ _ZN18QScriptEngineAgentC1ER25QScriptEngineAgentPrivateP13QScriptEngine@Base 5.0.2 1
  _ZN18QScriptEngineAgentC2EP13QScriptEngine@Base 5.0.2
- _ZN18QScriptEngineAgentC2ER25QScriptEngineAgentPrivateP13QScriptEngine@Base 5.0.2
+ _ZN18QScriptEngineAgentC2ER25QScriptEngineAgentPrivateP13QScriptEngine@Base 5.0.2 1
  _ZN18QScriptEngineAgentD0Ev@Base 5.0.2
  _ZN18QScriptEngineAgentD1Ev@Base 5.0.2
  _ZN18QScriptEngineAgentD2Ev@Base 5.0.2
@@ -196,79 +196,79 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN22QScriptExtensionPluginD0Ev@Base 5.0.2
  _ZN22QScriptExtensionPluginD1Ev@Base 5.0.2
  _ZN22QScriptExtensionPluginD2Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClass11scriptClassERK12QScriptValue@Base 5.0.2
- _ZN23QScriptDeclarativeClass11setPropertyEPNS_6ObjectERKPvRK12QScriptValue@Base 5.0.2
- _ZN23QScriptDeclarativeClass12toArrayIndexERKPvPb@Base 5.0.2
- _ZN23QScriptDeclarativeClass13functionValueERK12QScriptValueRKPv@Base 5.0.2
- _ZN23QScriptDeclarativeClass13propertyFlagsEPNS_6ObjectERKPv@Base 5.0.2
- _ZN23QScriptDeclarativeClass13propertyNamesEPNS_6ObjectE@Base 5.0.2
- _ZN23QScriptDeclarativeClass13propertyValueERK12QScriptValueRKPv@Base 5.0.2
- _ZN23QScriptDeclarativeClass13queryPropertyEPNS_6ObjectERKPv6QFlagsIN12QScriptClass9QueryFlagEE@Base 5.0.2
- _ZN23QScriptDeclarativeClass14newObjectValueEP13QScriptEnginePS_PNS_6ObjectE@Base 5.0.2
- _ZN23QScriptDeclarativeClass15scopeChainValueEP14QScriptContexti@Base 5.0.2
- _ZN23QScriptDeclarativeClass15setSupportsCallEb@Base 5.0.2
- _ZN23QScriptDeclarativeClass15startsWithUpperERKPv@Base 5.0.2
- _ZN23QScriptDeclarativeClass16pushCleanContextEP13QScriptEngine@Base 5.0.2
- _ZN23QScriptDeclarativeClass20PersistentIdentifierC1ERKS0_@Base 5.0.2
- _ZN23QScriptDeclarativeClass20PersistentIdentifierC1Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClass20PersistentIdentifierC2ERKS0_@Base 5.0.2
- _ZN23QScriptDeclarativeClass20PersistentIdentifierC2Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClass20PersistentIdentifierD1Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClass20PersistentIdentifierD2Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClass20PersistentIdentifieraSERKS0_@Base 5.0.2
- _ZN23QScriptDeclarativeClass20newStaticScopeObjectEP13QScriptEngine@Base 5.0.2
- _ZN23QScriptDeclarativeClass20newStaticScopeObjectEP13QScriptEngineiPK7QStringPK12QScriptValuePK6QFlagsINS5_12PropertyFlagEE@Base 5.0.2
- _ZN23QScriptDeclarativeClass26createPersistentIdentifierERK7QString@Base 5.0.2
- _ZN23QScriptDeclarativeClass26createPersistentIdentifierERKPv@Base 5.0.2
- _ZN23QScriptDeclarativeClass4callEPNS_6ObjectEP14QScriptContext@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngineRK12QScriptValue@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngineRK7QString@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngineb@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngined@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEnginef@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEnginei@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEnginej@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextRK12QScriptValue@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextRK7QString@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextb@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextd@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextf@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContexti@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextj@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1ERKS0_@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC1Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngineRK12QScriptValue@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngineRK7QString@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngineb@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngined@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEnginef@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEnginei@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEnginej@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextRK12QScriptValue@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextRK7QString@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextb@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextd@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextf@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContexti@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextj@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2ERKS0_@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueC2Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueD1Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClass5ValueD2Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClass6objectERK12QScriptValue@Base 5.0.2
- _ZN23QScriptDeclarativeClass7compareEPNS_6ObjectES1_@Base 5.0.2
- _ZN23QScriptDeclarativeClass8functionERK12QScriptValueRKPv@Base 5.0.2
- _ZN23QScriptDeclarativeClass8propertyEPNS_6ObjectERKPv@Base 5.0.2
- _ZN23QScriptDeclarativeClass8propertyERK12QScriptValueRKPv@Base 5.0.2
- _ZN23QScriptDeclarativeClass8toStringERKPv@Base 5.0.2
- _ZN23QScriptDeclarativeClass9newObjectEP13QScriptEnginePS_PNS_6ObjectE@Base 5.0.2
- _ZN23QScriptDeclarativeClass9toQObjectEPNS_6ObjectEPb@Base 5.0.2
- _ZN23QScriptDeclarativeClass9toVariantEPNS_6ObjectEPb@Base 5.0.2
- _ZN23QScriptDeclarativeClassC1EP13QScriptEngine@Base 5.0.2
- _ZN23QScriptDeclarativeClassC2EP13QScriptEngine@Base 5.0.2
- _ZN23QScriptDeclarativeClassD0Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClassD1Ev@Base 5.0.2
- _ZN23QScriptDeclarativeClassD2Ev@Base 5.0.2
+ _ZN23QScriptDeclarativeClass11scriptClassERK12QScriptValue@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass11setPropertyEPNS_6ObjectERKPvRK12QScriptValue@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass12toArrayIndexERKPvPb@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass13functionValueERK12QScriptValueRKPv@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass13propertyFlagsEPNS_6ObjectERKPv@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass13propertyNamesEPNS_6ObjectE@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass13propertyValueERK12QScriptValueRKPv@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass13queryPropertyEPNS_6ObjectERKPv6QFlagsIN12QScriptClass9QueryFlagEE@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass14newObjectValueEP13QScriptEnginePS_PNS_6ObjectE@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass15scopeChainValueEP14QScriptContexti@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass15setSupportsCallEb@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass15startsWithUpperERKPv@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass16pushCleanContextEP13QScriptEngine@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass20PersistentIdentifierC1ERKS0_@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass20PersistentIdentifierC1Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass20PersistentIdentifierC2ERKS0_@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass20PersistentIdentifierC2Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass20PersistentIdentifierD1Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass20PersistentIdentifierD2Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass20PersistentIdentifieraSERKS0_@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass20newStaticScopeObjectEP13QScriptEngine@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass20newStaticScopeObjectEP13QScriptEngineiPK7QStringPK12QScriptValuePK6QFlagsINS5_12PropertyFlagEE@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass26createPersistentIdentifierERK7QString@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass26createPersistentIdentifierERKPv@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass4callEPNS_6ObjectEP14QScriptContext@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngineRK12QScriptValue@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngineRK7QString@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngineb@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEngined@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEnginef@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEnginei@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP13QScriptEnginej@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextRK12QScriptValue@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextRK7QString@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextb@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextd@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextf@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContexti@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1EP14QScriptContextj@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1ERKS0_@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC1Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngineRK12QScriptValue@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngineRK7QString@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngineb@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEngined@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEnginef@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEnginei@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP13QScriptEnginej@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextRK12QScriptValue@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextRK7QString@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextb@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextd@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextf@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContexti@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2EP14QScriptContextj@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2ERKS0_@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueC2Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueD1Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass5ValueD2Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass6objectERK12QScriptValue@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass7compareEPNS_6ObjectES1_@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass8functionERK12QScriptValueRKPv@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass8propertyEPNS_6ObjectERKPv@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass8propertyERK12QScriptValueRKPv@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass8toStringERKPv@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass9newObjectEP13QScriptEnginePS_PNS_6ObjectE@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass9toQObjectEPNS_6ObjectEPb@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClass9toVariantEPNS_6ObjectEPb@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClassC1EP13QScriptEngine@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClassC2EP13QScriptEngine@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClassD0Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClassD1Ev@Base 5.0.2 1
+ _ZN23QScriptDeclarativeClassD2Ev@Base 5.0.2 1
  _ZN24QScriptSyntaxCheckResultC1EP31QScriptSyntaxCheckResultPrivate@Base 5.0.2
  _ZN24QScriptSyntaxCheckResultC1ERKS_@Base 5.0.2
  _ZN24QScriptSyntaxCheckResultC1Ev@Base 5.0.2
@@ -278,15 +278,15 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN24QScriptSyntaxCheckResultD1Ev@Base 5.0.2
  _ZN24QScriptSyntaxCheckResultD2Ev@Base 5.0.2
  _ZN24QScriptSyntaxCheckResultaSERKS_@Base 5.0.2
- (subst)_ZN25QScriptEngineAgentPrivate11atStatementERKN5QTJSC17DebuggerCallFrameE{ssize_t}i@Base 5.0.2
- (subst)_ZN25QScriptEngineAgentPrivate11returnEventERKN5QTJSC17DebuggerCallFrameE{ssize_t}i@Base 5.0.2
- (subst)_ZN25QScriptEngineAgentPrivate12evaluateStopERKN5QTJSC7JSValueE{ssize_t}@Base 5.0.2
- (subst)_ZN25QScriptEngineAgentPrivate12functionExitERKN5QTJSC7JSValueE{ssize_t}@Base 5.0.2
- (subst)_ZN25QScriptEngineAgentPrivate14exceptionCatchERKN5QTJSC17DebuggerCallFrameE{ssize_t}@Base 5.0.2
- (subst)_ZN25QScriptEngineAgentPrivate14exceptionThrowERKN5QTJSC17DebuggerCallFrameE{ssize_t}b@Base 5.0.2
- (subst)_ZN25QScriptEngineAgentPrivate18didReachBreakpointERKN5QTJSC17DebuggerCallFrameE{ssize_t}i@Base 5.0.2
- _ZN25QScriptEngineAgentPrivate6attachEv@Base 5.0.2
- _ZN25QScriptEngineAgentPrivate6detachEv@Base 5.0.2
+ (subst)_ZN25QScriptEngineAgentPrivate11atStatementERKN5QTJSC17DebuggerCallFrameE{ssize_t}i@Base 5.0.2 1
+ (subst)_ZN25QScriptEngineAgentPrivate11returnEventERKN5QTJSC17DebuggerCallFrameE{ssize_t}i@Base 5.0.2 1
+ (subst)_ZN25QScriptEngineAgentPrivate12evaluateStopERKN5QTJSC7JSValueE{ssize_t}@Base 5.0.2 1
+ (subst)_ZN25QScriptEngineAgentPrivate12functionExitERKN5QTJSC7JSValueE{ssize_t}@Base 5.0.2 1
+ (subst)_ZN25QScriptEngineAgentPrivate14exceptionCatchERKN5QTJSC17DebuggerCallFrameE{ssize_t}@Base 5.0.2 1
+ (subst)_ZN25QScriptEngineAgentPrivate14exceptionThrowERKN5QTJSC17DebuggerCallFrameE{ssize_t}b@Base 5.0.2 1
+ (subst)_ZN25QScriptEngineAgentPrivate18didReachBreakpointERKN5QTJSC17DebuggerCallFrameE{ssize_t}i@Base 5.0.2 1
+ _ZN25QScriptEngineAgentPrivate6attachEv@Base 5.0.2 1
+ _ZN25QScriptEngineAgentPrivate6detachEv@Base 5.0.2 1
  _ZN25QScriptExtensionInterfaceD0Ev@Base 5.0.2
  _ZN25QScriptExtensionInterfaceD1Ev@Base 5.0.2
  _ZN25QScriptExtensionInterfaceD2Ev@Base 5.0.2
@@ -416,12 +416,12 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZNK20QScriptValueIterator7hasNextEv@Base 5.0.2
  _ZNK22QScriptExtensionPlugin10metaObjectEv@Base 5.0.2
  _ZNK22QScriptExtensionPlugin12setupPackageERK7QStringP13QScriptEngine@Base 5.0.2
- _ZNK23QScriptDeclarativeClass12supportsCallEv@Base 5.0.2
- _ZNK23QScriptDeclarativeClass20PersistentIdentifier8toStringEv@Base 5.0.2
- _ZNK23QScriptDeclarativeClass5Value13toScriptValueEP13QScriptEngine@Base 5.0.2
- _ZNK23QScriptDeclarativeClass6engineEv@Base 5.0.2
- _ZNK23QScriptDeclarativeClass7contextEv@Base 5.0.2
- _ZNK23QScriptDeclarativeClass9isQObjectEv@Base 5.0.2
+ _ZNK23QScriptDeclarativeClass12supportsCallEv@Base 5.0.2 1
+ _ZNK23QScriptDeclarativeClass20PersistentIdentifier8toStringEv@Base 5.0.2 1
+ _ZNK23QScriptDeclarativeClass5Value13toScriptValueEP13QScriptEngine@Base 5.0.2 1
+ _ZNK23QScriptDeclarativeClass6engineEv@Base 5.0.2 1
+ _ZNK23QScriptDeclarativeClass7contextEv@Base 5.0.2 1
+ _ZNK23QScriptDeclarativeClass9isQObjectEv@Base 5.0.2 1
  _ZNK24QScriptSyntaxCheckResult12errorMessageEv@Base 5.0.2
  _ZNK24QScriptSyntaxCheckResult15errorLineNumberEv@Base 5.0.2
  _ZNK24QScriptSyntaxCheckResult17errorColumnNumberEv@Base 5.0.2
@@ -434,8 +434,8 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZTI17QFactoryInterface@Base 5.0.2
  _ZTI18QScriptEngineAgent@Base 5.0.2
  _ZTI22QScriptExtensionPlugin@Base 5.0.2
- _ZTI23QScriptDeclarativeClass@Base 5.0.2
- _ZTI25QScriptEngineAgentPrivate@Base 5.0.2
+ _ZTI23QScriptDeclarativeClass@Base 5.0.2 1
+ _ZTI25QScriptEngineAgentPrivate@Base 5.0.2 1
  _ZTI25QScriptExtensionInterface@Base 5.0.2
  _ZTI28QScriptClassPropertyIterator@Base 5.0.2
  _ZTS12QScriptClass@Base 5.0.2
@@ -443,8 +443,8 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZTS17QFactoryInterface@Base 5.0.2
  _ZTS18QScriptEngineAgent@Base 5.0.2
  _ZTS22QScriptExtensionPlugin@Base 5.0.2
- _ZTS23QScriptDeclarativeClass@Base 5.0.2
- _ZTS25QScriptEngineAgentPrivate@Base 5.0.2
+ _ZTS23QScriptDeclarativeClass@Base 5.0.2 1
+ _ZTS25QScriptEngineAgentPrivate@Base 5.0.2 1
  _ZTS25QScriptExtensionInterface@Base 5.0.2
  _ZTS28QScriptClassPropertyIterator@Base 5.0.2
  _ZTV12QScriptClass@Base 5.0.2
@@ -452,8 +452,8 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZTV17QFactoryInterface@Base 5.0.2
  _ZTV18QScriptEngineAgent@Base 5.0.2
  _ZTV22QScriptExtensionPlugin@Base 5.0.2
- _ZTV23QScriptDeclarativeClass@Base 5.0.2
- _ZTV25QScriptEngineAgentPrivate@Base 5.0.2
+ _ZTV23QScriptDeclarativeClass@Base 5.0.2 1
+ _ZTV25QScriptEngineAgentPrivate@Base 5.0.2 1
  _ZTV25QScriptExtensionInterface@Base 5.0.2
  _ZTV28QScriptClassPropertyIterator@Base 5.0.2
  _ZlsR11QDataStreamRK18QScriptContextInfo@Base 5.0.2
