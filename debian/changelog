@@ -9,6 +9,7 @@ qtscript-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     - Add the necessary options in the symbols file.
     - Add mark_private_symbols.sh.
     - Mark private symbols.
+    - Add lintian overrides for dependency on other lib.
   * Update install files.
   * Update symbols files.
 
