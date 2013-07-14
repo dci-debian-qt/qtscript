@@ -1,6 +1,5 @@
-qtscript-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
+qtscript-opensource-src (5.1.0+dfsg-1) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Fix watch file.
   * Bump Qt dependencies to 5.1.0~.
@@ -14,7 +13,7 @@ qtscript-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
   * Update symbols files.
   * Add third party copyright stuff for ce-compat.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Jun 2013 11:22:55 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 14 Jul 2013 16:25:38 -0300
 
 qtscript-opensource-src (5.0.2+dfsg-3) experimental; urgency=low
 
