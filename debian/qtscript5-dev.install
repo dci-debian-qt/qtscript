@@ -15,6 +15,7 @@ usr/include/qt5/QtScript/QScriptValueIterator
 usr/include/qt5/QtScript/QScriptValueList
 usr/include/qt5/QtScript/QScriptable
 usr/include/qt5/QtScript/QtScript
+usr/include/qt5/QtScript/QtScriptDepends
 usr/include/qt5/QtScript/QtScriptVersion
 usr/include/qt5/QtScript/qscriptable.h
 usr/include/qt5/QtScript/qscriptclass.h
@@ -33,6 +34,7 @@ usr/include/qt5/QtScript/qtscriptglobal.h
 usr/include/qt5/QtScript/qtscriptversion.h
 usr/include/qt5/QtScriptTools/QScriptEngineDebugger
 usr/include/qt5/QtScriptTools/QtScriptTools
+usr/include/qt5/QtScriptTools/QtScriptToolsDepends
 usr/include/qt5/QtScriptTools/QtScriptToolsVersion
 usr/include/qt5/QtScriptTools/qscriptenginedebugger.h
 usr/include/qt5/QtScriptTools/qtscripttoolsversion.h

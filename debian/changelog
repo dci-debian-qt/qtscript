@@ -8,6 +8,7 @@ qtscript-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     In this way we can know if external packages are using private headers.
     - Add the necessary options in the symbols file.
     - Add mark_private_symbols.sh.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Jun 2013 11:22:55 -0300
 
