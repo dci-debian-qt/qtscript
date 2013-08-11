@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 alpha amd64 armhf hurd-i386 i386 ia64 powerpc s390
+# SymbolsHelper-Confirmed: 5.1.0 s390
 libQt5Script.so.5 libqt5script5 #MINVER#
 | libqt5script5 #MINVER#, qtscript-abi-5-1-0
  _Z14qScriptConnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
