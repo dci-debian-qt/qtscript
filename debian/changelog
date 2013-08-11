@@ -1,9 +1,9 @@
-qtscript-opensource-src (5.1.0+dfsg-2) UNRELEASED; urgency=low
+qtscript-opensource-src (5.1.0+dfsg-2) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
   * Update symbols files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Aug 2013 12:51:33 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 11 Aug 2013 12:54:48 -0300
 
 qtscript-opensource-src (5.1.0+dfsg-1) experimental; urgency=low
 
