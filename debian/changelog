@@ -1,5 +1,9 @@
 qtscript-opensource-src (5.1.0+dfsg-3) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Require pkg-kde-tools with version at least 0.15.8 to fix a symbol
+    substitution on s390.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Aug 2013 20:31:42 -0300
 
 qtscript-opensource-src (5.1.0+dfsg-2) unstable; urgency=low
