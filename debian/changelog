@@ -4,6 +4,7 @@ qtscript-opensource-src (5.1.1+dfsg-1) UNRELEASED; urgency=low
   * New upstream release.
   * Be verbose on the files we remove to make the source tarball DFSG
     compliant.
+  * Tight Qt 5 build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Aug 2013 21:26:33 -0300
 
