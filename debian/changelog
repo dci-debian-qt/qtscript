@@ -1,3 +1,7 @@
+qtscript-opensource-src (5.1.0+dfsg-4) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Aug 2013 21:26:33 -0300
+
 qtscript-opensource-src (5.1.0+dfsg-3) unstable; urgency=low
 
   * Require pkg-kde-tools with version at least 0.15.8 to fix a symbol
