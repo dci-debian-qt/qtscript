@@ -1,13 +1,12 @@
-qtscript-opensource-src (5.1.1+dfsg-1) UNRELEASED; urgency=low
+qtscript-opensource-src (5.1.1+dfsg-1) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Be verbose on the files we remove to make the source tarball DFSG
     compliant.
   * Tighten Qt 5 build dependencies.
   * Refresh s390x_jscore.diff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Aug 2013 21:26:33 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 30 Aug 2013 22:11:00 -0300
 
 qtscript-opensource-src (5.1.0+dfsg-3) unstable; urgency=low
 
