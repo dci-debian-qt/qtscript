@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 s390
+# SymbolsHelper-Confirmed: 5.1.1 hurd-i386 s390
 libQt5Script.so.5 libqt5script5 #MINVER#
 | libqt5script5 #MINVER#, qtscript-abi-5-1-0
  _Z14qScriptConnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
@@ -297,7 +297,6 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZN28QScriptClassPropertyIteratorD0Ev@Base 5.0.2
  _ZN28QScriptClassPropertyIteratorD1Ev@Base 5.0.2
  _ZN28QScriptClassPropertyIteratorD2Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386)_ZN9QHashData8willGrowEv@Base 5.0.2
  _ZNK11QScriptable10thisObjectEv@Base 5.0.2
  _ZNK11QScriptable13argumentCountEv@Base 5.0.2
  _ZNK11QScriptable6engineEv@Base 5.0.2
