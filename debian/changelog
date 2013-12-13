@@ -3,6 +3,7 @@ qtscript-opensource-src (5.2.0+dfsg-1) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump build dependencies.
+  * Refresh s390x_jscore.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Dec 2013 13:54:36 -0300
 
