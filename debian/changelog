@@ -1,3 +1,8 @@
+qtscript-opensource-src (5.1.1+dfsg-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Dec 2013 13:54:36 -0300
+
 qtscript-opensource-src (5.1.1+dfsg-2) unstable; urgency=low
 
   * Switch symbols substitutions failing in s390 from ssize_t to intptr_t
