@@ -1,3 +1,5 @@
+usr/share/qt5/mkspecs/modules/qt_lib_script_private.pri
+usr/share/qt5/mkspecs/modules/qt_lib_scripttools_private.pri
 usr/include/qt5/QtScript/*/QtScript/private/qscriptable_p.h
 usr/include/qt5/QtScript/*/QtScript/private/qscriptactivationobject_p.h
 usr/include/qt5/QtScript/*/QtScript/private/qscriptast_p.h
