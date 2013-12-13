@@ -12,8 +12,7 @@ Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
                pkg-kde-tools (>= 0.15.8~),
                qtbase5-private-dev (>= 5.2.0+dfsg~)
-Build-Depends-Indep: libqt5sql5-sqlite,
-                     qttools5-dev-tools (>= 5.2.0-1~)
+Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools (>= 5.2.0-1~)
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtscript.git
@@ -95,7 +94,7 @@ Section: debug
 Depends: libqt5script5 (= ${binary:Version}),
          libqt5scripttools5 (= ${binary:Version}),
          ${misc:Depends}
-Suggests: qtscript5-examples (= ${binary:Version}),
+Suggests: qtscript5-examples (= ${binary:Version})
 Description: Qt 5 script libraries debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
