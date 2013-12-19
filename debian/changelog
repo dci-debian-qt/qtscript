@@ -1,3 +1,12 @@
+qtscript-opensource-src (5.2.0+dfsg-2) UNRELEASED; urgency=medium
+
+  [ Iftikhar Ahmad ]
+  * debian/patches/enable-make-check.patch:
+    - Fix make check to work.
+  * Run tests as part of the override_dh_auto_test
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Dec 2013 13:59:15 +0200
+
 qtscript-opensource-src (5.2.0+dfsg-1) experimental; urgency=low
 
   * New upstream release.

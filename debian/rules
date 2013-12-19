@@ -7,6 +7,7 @@ export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags -
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
+export QT_QPA_PLATFORM := minimal
 
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtscript5-dbg
@@ -35,3 +36,6 @@ override_dh_builddeb:
 prune-nonfree:
 	rm -rfv tests/benchmarks/script/sunspider/*
 	rm -rfv tests/benchmarks/script/v8/*
+
+override_dh_auto_test:
+	cd tests/auto/ && ( test -e Makefile || qmake auto.pro -o Makefile ) && xvfb-run make -f Makefile check
