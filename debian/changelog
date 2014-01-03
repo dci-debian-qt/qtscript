@@ -7,6 +7,7 @@ qtscript-opensource-src (5.2.0+dfsg-2) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Provide qtscript-abi-5-2-0 (and not 5-1-0).
+  * Build tests in build target, and use dh_auto_test.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Dec 2013 13:59:15 +0200
 
