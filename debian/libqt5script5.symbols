@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.1.1 hurd-i386 s390
 libQt5Script.so.5 libqt5script5 #MINVER#
-| libqt5script5 #MINVER#, qtscript-abi-5-1-0
+| libqt5script5 #MINVER#, qtscript-abi-5-2-0
  _Z14qScriptConnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
  _Z17qScriptDisconnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
  _Z5qHashRK13QScriptString@Base 5.0.2

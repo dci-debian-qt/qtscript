@@ -20,7 +20,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtscript.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtscript.git;a=summary
 
 Package: libqt5script5
-Provides: qtscript-abi-5-1-0
+Provides: qtscript-abi-5-2-0
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
