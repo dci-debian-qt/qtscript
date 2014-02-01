@@ -1,5 +1,7 @@
 qtscript-opensource-src (5.2.0+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Do not run tests until we get the transition sorted out.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Feb 2014 17:53:00 -0300
 
