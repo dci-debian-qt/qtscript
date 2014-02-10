@@ -1,11 +1,10 @@
-qtscript-opensource-src (5.2.1+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.2.1+dfsg-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Update symbols files with buildd's logs.
   * Bump Qt build dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Feb 2014 12:56:38 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 10 Feb 2014 13:07:06 -0300
 
 qtscript-opensource-src (5.2.0+dfsg-3) unstable; urgency=medium
 
