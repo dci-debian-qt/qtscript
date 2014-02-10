@@ -428,14 +428,14 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZNK28QScriptClassPropertyIterator2idEv@Base 5.0.2
  _ZNK28QScriptClassPropertyIterator5flagsEv@Base 5.0.2
  _ZNK28QScriptClassPropertyIterator6objectEv@Base 5.0.2
- (optional=templinst|subst|arch=ia64 powerpc s390x sparc)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorE{qptrdiff}S1_EvT_T0_S5_T1_@Base 5.2.0
- (optional=templinst|arch=powerpc sparc)_ZSt13__heap_selectIN5QListI7QStringE8iteratorEEvT_S4_S4_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc s390x sparc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc s390x sparc)_ZSt16__introsort_loopIN5QListI7QStringE8iteratorEiEvT_S4_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc s390x sparc)_ZSt19__move_median_firstIN5QListI7QStringE8iteratorEEvT_S4_S4_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc s390x sparc)_ZSt21__unguarded_partitionIN5QListI7QStringE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc s390x sparc)_ZSt25__unguarded_linear_insertIN5QListI7QStringE8iteratorEEvT_@Base 5.2.0
- (optional=templinst|arch=ia64 s390x)_ZSt9make_heapIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.2.0
+ (optional=templinst|subst|arch=ia64 sparc)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorE{qptrdiff}S1_EvT_T0_S5_T1_@Base 5.2.0
+ (optional=templinst|arch=sparc)_ZSt13__heap_selectIN5QListI7QStringE8iteratorEEvT_S4_S4_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListI7QStringE8iteratorEiEvT_S4_T0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListI7QStringE8iteratorEEvT_S4_S4_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListI7QStringE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIN5QListI7QStringE8iteratorEEvT_@Base 5.2.0
+ (optional=templinst|arch=ia64)_ZSt9make_heapIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.2.0
  _ZTI12QScriptClass@Base 5.0.2
  _ZTI13QScriptEngine@Base 5.0.2
  _ZTI17QFactoryInterface@Base 5.0.2
