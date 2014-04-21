@@ -72,7 +72,7 @@ Description: Qt 5 script private development files
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the private header development files for building some
- Qt 5 applications QtScript and QtScriptTools private headers.
+ Qt 5 applications using QtScript and QtScriptTools private headers.
  .
  Use at your own risk.
 
