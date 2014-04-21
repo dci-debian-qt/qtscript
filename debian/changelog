@@ -1,3 +1,7 @@
+qtscript-opensource-src (5.2.1+dfsg-3) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2014 22:27:08 -0300
+
 qtscript-opensource-src (5.2.1+dfsg-2) unstable; urgency=medium
 
   * Upload to unstable.
