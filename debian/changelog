@@ -1,6 +1,7 @@
-qtscript-opensource-src (5.2.1+dfsg-3) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
   * Add missing word in qtscript5-private-dev's description (Closes: #745300).
     Thanks Pascal De Vuyst.
   * Do not build qtscript5-doc anymore from this source, thus allowing us to
