@@ -1,6 +1,5 @@
-qtscript-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.3.0+dfsg-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Add missing word in qtscript5-private-dev's description (Closes: #745300).
     Thanks Pascal De Vuyst.
@@ -11,7 +10,7 @@ qtscript-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
   * Refresh s390x_jscore.diff.
   * Move headers to their new multi-arch aware path.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2014 22:27:08 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 21 May 2014 12:43:46 -0300
 
 qtscript-opensource-src (5.2.1+dfsg-2) unstable; urgency=medium
 
