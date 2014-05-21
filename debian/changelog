@@ -9,6 +9,7 @@ qtscript-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
     The package will be built from qttools itself.
   * Bump the build dependency on qtbase to 5.3.0+dfsg~.
   * Refresh s390x_jscore.diff.
+  * Move headers to their new multi-arch aware path.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Apr 2014 22:27:08 -0300
 
