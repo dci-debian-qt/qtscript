@@ -48,7 +48,7 @@ Description: Qt 5 script tools module
 
 Package: qtscript5-dev
 Section: libdevel
-Architecture: all
+Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5script5 (= ${binary:Version}),
@@ -63,7 +63,7 @@ Description: Qt 5 script development files
  applications using QtScript and QtScriptTools libraries.
 
 Package: qtscript5-private-dev
-Architecture: all
+Architecture: any
 Multi-Arch: same
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
