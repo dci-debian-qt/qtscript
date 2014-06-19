@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 armel armhf i386 ia64 powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 5.3.0 sparc
 libQt5ScriptTools.so.5 libqt5scripttools5 #MINVER#
 | libqt5scripttools5 #MINVER#, qtscript-abi-5-2-0
  _ZN21QScriptEngineDebugger11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -25,31 +25,6 @@ libQt5ScriptTools.so.5 libqt5scripttools5 #MINVER#
  _ZNK21QScriptEngineDebugger5stateEv@Base 5.0.2
  _ZNK21QScriptEngineDebugger6actionENS_14DebuggerActionE@Base 5.0.2
  _ZNK21QScriptEngineDebugger6widgetENS_14DebuggerWidgetE@Base 5.0.2
- (optional=templinst|arch=ia64 sparc)_ZNSt17_Temporary_bufferIN5QListI7QStringE8iteratorES1_EC1ES3_S3_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZNSt17_Temporary_bufferIN5QListI7QStringE8iteratorES1_EC2ES3_S3_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt11lower_boundIN5QListI7QStringE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt11upper_boundIN5QListI7QStringE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt12__move_mergeIN5QListI7QStringE8iteratorES3_PS1_ET1_T_S6_T0_S7_S5_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt12__move_mergeIP7QStringS1_N5QListIS0_E8iteratorEET1_T_S6_T0_S7_S5_@Base 5.2.0
- (optional=templinst|subst|arch=ia64 sparc)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListI7QStringE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.2.0
- (optional=templinst|subst|arch=ia64 sparc)_ZSt16__merge_adaptiveIN5QListI7QStringE8iteratorE{qptrdiff}PS1_EvT_S5_S5_T0_S6_T1_S6_@Base 5.2.0
- (optional=templinst|subst|arch=ia64 sparc)_ZSt17__merge_sort_loopIN5QListI7QStringE8iteratorEPS1_{qptrdiff}EvT_S5_T0_T1_@Base 5.2.0
- (optional=templinst|subst|arch=ia64 sparc)_ZSt17__merge_sort_loopIP7QStringN5QListIS0_E8iteratorE{qptrdiff}EvT_S5_T0_T1_@Base 5.2.0
- (optional=templinst|subst|arch=ia64 sparc)_ZSt17__rotate_adaptiveIN5QListI7QStringE8iteratorEPS1_{qptrdiff}ET_S5_S5_S5_T1_S6_T0_S6_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__inplace_stable_sortIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__move_merge_adaptiveIP7QStringN5QListIS0_E8iteratorES4_EvT_S5_T0_S6_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListI7QStringE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt22__merge_without_bufferIN5QListI7QStringE8iteratorEiEvT_S4_S4_T0_S5_@Base 5.2.0
- (optional=templinst|subst|arch=ia64 sparc)_ZSt22__stable_sort_adaptiveIN5QListI7QStringE8iteratorEPS1_{qptrdiff}EvT_S5_T0_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt24__merge_sort_with_bufferIN5QListI7QStringE8iteratorEPS1_EvT_S5_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt30__move_merge_adaptive_backwardIN5QListI7QStringE8iteratorEPS1_S3_EvT_S5_T0_S6_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt8__rotateIN5QListI7QStringE8iteratorEEvT_S4_S4_St26random_access_iterator_tag@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0
  _ZTI21QScriptEngineDebugger@Base 5.0.2
  _ZTI25QAbstractItemModelPrivate@Base 5.0.2
  _ZTS21QScriptEngineDebugger@Base 5.0.2
