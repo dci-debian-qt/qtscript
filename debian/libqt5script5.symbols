@@ -438,7 +438,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZTI25QScriptEngineAgentPrivate@Base 5.0.2 1
  _ZTI25QScriptExtensionInterface@Base 5.0.2
  _ZTI28QScriptClassPropertyIterator@Base 5.0.2
- (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTIN23QScriptDeclarativeClass6ObjectE@Base 5.3.0
+ (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTIN23QScriptDeclarativeClass6ObjectE@Base 5.3.0 1
  _ZTS12QScriptClass@Base 5.0.2
  _ZTS13QScriptEngine@Base 5.0.2
  _ZTS17QFactoryInterface@Base 5.0.2
@@ -448,7 +448,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZTS25QScriptEngineAgentPrivate@Base 5.0.2 1
  _ZTS25QScriptExtensionInterface@Base 5.0.2
  _ZTS28QScriptClassPropertyIterator@Base 5.0.2
- (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTSN23QScriptDeclarativeClass6ObjectE@Base 5.3.0
+ (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTSN23QScriptDeclarativeClass6ObjectE@Base 5.3.0 1
  _ZTV12QScriptClass@Base 5.0.2
  _ZTV13QScriptEngine@Base 5.0.2
  _ZTV17QFactoryInterface@Base 5.0.2
@@ -458,7 +458,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZTV25QScriptEngineAgentPrivate@Base 5.0.2 1
  _ZTV25QScriptExtensionInterface@Base 5.0.2
  _ZTV28QScriptClassPropertyIterator@Base 5.0.2
- (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTVN23QScriptDeclarativeClass6ObjectE@Base 5.3.0
+ (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTVN23QScriptDeclarativeClass6ObjectE@Base 5.3.0 1
  _ZlsR11QDataStreamRK18QScriptContextInfo@Base 5.0.2
  _ZrsR11QDataStreamR18QScriptContextInfo@Base 5.0.2
  (c++)"non-virtual thunk to QScriptExtensionPlugin::~QScriptExtensionPlugin()@Base" 5.0.2
