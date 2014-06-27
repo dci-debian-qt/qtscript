@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64
+# SymbolsHelper-Confirmed: 5.3.1 amd64 kfreebsd-amd64 powerpc
 libQt5Script.so.5 libqt5script5 #MINVER#
 | libqt5script5 #MINVER#, qtscript-abi-5-2-0
  _Z14qScriptConnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
@@ -287,6 +287,9 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  (subst)_ZN25QScriptEngineAgentPrivate18didReachBreakpointERKN5QTJSC17DebuggerCallFrameE{intptr_t}i@Base 5.0.2 1
  _ZN25QScriptEngineAgentPrivate6attachEv@Base 5.0.2 1
  _ZN25QScriptEngineAgentPrivate6detachEv@Base 5.0.2 1
+ (optional=gccinternal|arch=powerpc)_ZN25QScriptExtensionInterfaceD0Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN25QScriptExtensionInterfaceD1Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN25QScriptExtensionInterfaceD2Ev@Base 5.3.1
  _ZN28QScriptClassPropertyIteratorC1ERK12QScriptValue@Base 5.0.2
  _ZN28QScriptClassPropertyIteratorC1ERK12QScriptValueR35QScriptClassPropertyIteratorPrivate@Base 5.0.2
  _ZN28QScriptClassPropertyIteratorC2ERK12QScriptValue@Base 5.0.2
@@ -435,7 +438,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZTI25QScriptEngineAgentPrivate@Base 5.0.2 1
  _ZTI25QScriptExtensionInterface@Base 5.0.2
  _ZTI28QScriptClassPropertyIterator@Base 5.0.2
- (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTIN23QScriptDeclarativeClass6ObjectE@Base 5.3.0
+ (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTIN23QScriptDeclarativeClass6ObjectE@Base 5.3.0
  _ZTS12QScriptClass@Base 5.0.2
  _ZTS13QScriptEngine@Base 5.0.2
  _ZTS17QFactoryInterface@Base 5.0.2
@@ -445,7 +448,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZTS25QScriptEngineAgentPrivate@Base 5.0.2 1
  _ZTS25QScriptExtensionInterface@Base 5.0.2
  _ZTS28QScriptClassPropertyIterator@Base 5.0.2
- (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTSN23QScriptDeclarativeClass6ObjectE@Base 5.3.0
+ (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTSN23QScriptDeclarativeClass6ObjectE@Base 5.3.0
  _ZTV12QScriptClass@Base 5.0.2
  _ZTV13QScriptEngine@Base 5.0.2
  _ZTV17QFactoryInterface@Base 5.0.2
@@ -455,7 +458,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZTV25QScriptEngineAgentPrivate@Base 5.0.2 1
  _ZTV25QScriptExtensionInterface@Base 5.0.2
  _ZTV28QScriptClassPropertyIterator@Base 5.0.2
- (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTVN23QScriptDeclarativeClass6ObjectE@Base 5.3.0
+ (optional=gccinternal|arch=alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64)_ZTVN23QScriptDeclarativeClass6ObjectE@Base 5.3.0
  _ZlsR11QDataStreamRK18QScriptContextInfo@Base 5.0.2
  _ZrsR11QDataStreamR18QScriptContextInfo@Base 5.0.2
  (c++)"non-virtual thunk to QScriptExtensionPlugin::~QScriptExtensionPlugin()@Base" 5.0.2
