@@ -1,3 +1,7 @@
+qtscript-opensource-src (5.3.1+dfsg-4) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Sep 2014 22:03:01 -0300
+
 qtscript-opensource-src (5.3.1+dfsg-3) unstable; urgency=medium
 
   * Bump qtbase's build dependencies to >= 5.3.1-2 to get qtbase-abi-5-3-1.
