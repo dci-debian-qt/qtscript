@@ -7,6 +7,7 @@ qtscript-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   * Update Vcs-Git URL to point to cgit interface.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Update debian/copyright.
+  * Use Files-Excluded instead of prune-nonfree.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Dec 2014 16:46:41 +0300
 
