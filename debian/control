@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9),
                qtbase5-private-dev (>= 5.3.2+dfsg~),
                xauth,
                xvfb
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtscript.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qtscript.git
