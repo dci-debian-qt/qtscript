@@ -1,3 +1,4 @@
 enable-make-check.patch
 disable_v8_sunspider_tests.patch
 s390x_jscore.diff
+kfreebsd.diff

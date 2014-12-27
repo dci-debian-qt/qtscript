@@ -1,0 +1,18 @@
+Author: Pino Toscano <toscano.pino@tiscali.it>
+Description: Disable pthread_np.h on BSD w/ GNU libc
+ pthread_np.h exists on BSD userlands only, so do not enable it on BSD
+ kernels with GNU libc/userland (e.g. GNU/kFreeBSD).
+Last-Update: 2014-12-27
+Forwarded: https://codereview.qt-project.org/#/c/102659/
+
+--- a/src/3rdparty/javascriptcore/JavaScriptCore/config.h
++++ b/src/3rdparty/javascriptcore/JavaScriptCore/config.h
+@@ -53,7 +53,7 @@
+ 
+ #endif
+ 
+-#if OS(FREEBSD) || OS(OPENBSD)
++#if (OS(FREEBSD) || OS(OPENBSD)) && !defined(__GLIBC__)
+ #define HAVE_PTHREAD_NP_H 1
+ #endif
+ 
