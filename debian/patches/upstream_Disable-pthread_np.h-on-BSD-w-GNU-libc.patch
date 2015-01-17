@@ -1,0 +1,30 @@
+From 52e775b4d0e59dfb44c22b070f272dbc21014389 Mon Sep 17 00:00:00 2001
+From: Pino Toscano <toscano.pino@tiscali.it>
+Date: Sat, 27 Dec 2014 19:36:19 +0100
+Subject: [PATCH] Disable pthread_np.h on BSD w/ GNU libc
+
+pthread_np.h exists on BSD userlands only, so do not enable it
+on BSD kernels with GNU libc/userland (e.g. GNU/kFreeBSD).
+
+Change-Id: Ic9bb2221531322ce425543c85155cfafc5294c41
+Reviewed-by: Simon Hausmann <simon.hausmann@digia.com>
+---
+ src/3rdparty/javascriptcore/JavaScriptCore/config.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/3rdparty/javascriptcore/JavaScriptCore/config.h b/src/3rdparty/javascriptcore/JavaScriptCore/config.h
+index 6be10fc..07f76b2 100644
+--- a/src/3rdparty/javascriptcore/JavaScriptCore/config.h
++++ b/src/3rdparty/javascriptcore/JavaScriptCore/config.h
+@@ -53,7 +53,7 @@
+ 
+ #endif
+ 
+-#if OS(FREEBSD) || OS(OPENBSD)
++#if (OS(FREEBSD) || OS(OPENBSD)) && !defined(__GLIBC__)
+ #define HAVE_PTHREAD_NP_H 1
+ #endif
+ 
+-- 
+2.1.4
+
