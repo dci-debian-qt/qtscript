@@ -1,3 +1,15 @@
+qtscript-opensource-src (5.4.0+dfsg-2) experimental; urgency=medium
+
+  [ Pino Toscano ]
+  * Backport upstream commit 52e775b4d0e59dfb44c22b070f272dbc21014389 to fix
+    build on GNU/kFreeBSD, making sure that pthread_np.h is not used;
+    patch upstream_Disable-pthread_np.h-on-BSD-w-GNU-libc.patch.
+
+  [ Dmitry Shachnev ]
+  * Update debian/copyright.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 24 Jan 2015 18:14:24 +0300
+
 qtscript-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
