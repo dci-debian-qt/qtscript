@@ -1,3 +1,10 @@
+qtscript-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Feb 2015 11:27:48 +0300
+
 qtscript-opensource-src (5.4.0+dfsg-2) experimental; urgency=medium
 
   [ Pino Toscano ]
