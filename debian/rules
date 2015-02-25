@@ -36,5 +36,4 @@ override_dh_makeshlibs:
 	DEBUG=1 debian/mark_private_symbols.sh
 
 override_dh_auto_test:
-	# Do not run tests at least until we get the transition sorted out.
-	#xvfb-run -a dh_auto_test
+	xvfb-run -a dh_auto_test
