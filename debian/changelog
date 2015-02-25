@@ -4,6 +4,9 @@ qtscript-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update debian/watch to use https://download.qt.io/.
   * Build-depend on qtbase 5.4.1.
+  * Drop upstream_Disable-pthread_np.h-on-BSD-w-GNU-libc.patch, applied
+    upstream.
+  * Refresh s390x_jscore.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Feb 2015 11:27:48 +0300
 
