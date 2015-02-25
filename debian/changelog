@@ -9,6 +9,8 @@ qtscript-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
   * Refresh s390x_jscore.diff.
   * Update debian/copyright.
   * Run the tests during build.
+  * Mark three destructors symbols as optional to fix build with GCC 5
+    (closes: #778093).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Feb 2015 11:27:48 +0300
 
