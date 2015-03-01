@@ -2,6 +2,7 @@ qtscript-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add upstream patch to correctly detect little-endian ppc/ppc64.
+  * mark_private_symbols.sh: Strip trailing colon from symbols names.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2015 14:11:06 +0300
 
