@@ -1,3 +1,9 @@
+qtscript-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
+
+  * Drop ppc64el_jscore.diff, applied upstream
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Mar 2015 00:24:17 +0100
+
 qtscript-opensource-src (5.4.1+dfsg-3) experimental; urgency=medium
 
   * Add upstream patch to correctly detect little-endian ppc/ppc64.
