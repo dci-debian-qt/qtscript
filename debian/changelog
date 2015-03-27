@@ -1,3 +1,32 @@
+qtscript-opensource-src (5.4.1+dfsg-3) experimental; urgency=medium
+
+  * Add upstream patch to correctly detect little-endian ppc/ppc64.
+  * mark_private_symbols.sh: Strip trailing colon from symbols names.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 01 Mar 2015 22:06:25 +0300
+
+qtscript-opensource-src (5.4.1+dfsg-2) experimental; urgency=medium
+
+  * Disable some failing tests.
+  * Remove a symbol from libqt5script5.symbols that should not be there.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 25 Feb 2015 15:34:04 +0300
+
+qtscript-opensource-src (5.4.1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update debian/watch to use https://download.qt.io/.
+  * Build-depend on qtbase 5.4.1.
+  * Drop upstream_Disable-pthread_np.h-on-BSD-w-GNU-libc.patch, applied
+    upstream.
+  * Refresh s390x_jscore.diff.
+  * Update debian/copyright.
+  * Run the tests during build.
+  * Mark three destructors symbols as optional to fix build with GCC 5
+    (closes: #778093).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 25 Feb 2015 13:13:33 +0300
+
 qtscript-opensource-src (5.4.0+dfsg-2) experimental; urgency=medium
 
   [ Pino Toscano ]
