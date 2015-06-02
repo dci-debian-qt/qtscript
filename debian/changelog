@@ -8,6 +8,7 @@ qtscript-opensource-src (5.4.2+dfsg-1) UNRELEASED; urgency=medium
     (and we really hope to see you back really soon!).
   * Update symbols files with buildds' logs.
   * Refresh s390x_jscore.diff.
+  * Remove ppc64el_jscore.diff, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 May 2015 20:52:28 -0300
 
