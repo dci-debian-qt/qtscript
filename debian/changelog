@@ -9,6 +9,8 @@ qtscript-opensource-src (5.4.2+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols files with buildds' logs.
   * Refresh s390x_jscore.diff.
   * Remove ppc64el_jscore.diff, applied upstream.
+  * Use pkgkde-make-private-symbols from pkg-kde-tools 0.15.17.
+    - Drop the relevant entry in debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 May 2015 20:52:28 -0300
 
