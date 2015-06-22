@@ -1,8 +1,18 @@
-qtscript-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.4.2+dfsg-1) experimental; urgency=medium
 
-  * Drop ppc64el_jscore.diff, applied upstream
+  * New upstream release.
+    - Bump Qt build dependencies to 5.4.2.
+  * Clear up the list in Uploaders removing people who hasn't committed to the
+    repo in more than a year. They can re add themselves whenever they want
+    (and we really hope to see you back really soon!).
+  * Update symbols files with buildds' logs.
+  * Refresh s390x_jscore.diff.
+  * Remove ppc64el_jscore.diff, applied upstream.
+  * Use pkgkde-make-private-symbols from pkg-kde-tools 0.15.17.
+    - Drop the relevant entry in debian/copyright.
+  * Expose HTML documentation (Closes: #751181).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Mar 2015 00:24:17 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 02 Jun 2015 17:36:59 -0300
 
 qtscript-opensource-src (5.4.1+dfsg-3) experimental; urgency=medium
 
