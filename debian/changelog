@@ -1,3 +1,72 @@
+qtscript-opensource-src (5.4.2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies to 5.4.2.
+  * Clear up the list in Uploaders removing people who hasn't committed to the
+    repo in more than a year. They can re add themselves whenever they want
+    (and we really hope to see you back really soon!).
+  * Update symbols files with buildds' logs.
+  * Refresh s390x_jscore.diff.
+  * Remove ppc64el_jscore.diff, applied upstream.
+  * Use pkgkde-make-private-symbols from pkg-kde-tools 0.15.17.
+    - Drop the relevant entry in debian/copyright.
+  * Expose HTML documentation (Closes: #751181).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 02 Jun 2015 17:36:59 -0300
+
+qtscript-opensource-src (5.4.1+dfsg-3) experimental; urgency=medium
+
+  * Add upstream patch to correctly detect little-endian ppc/ppc64.
+  * mark_private_symbols.sh: Strip trailing colon from symbols names.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 01 Mar 2015 22:06:25 +0300
+
+qtscript-opensource-src (5.4.1+dfsg-2) experimental; urgency=medium
+
+  * Disable some failing tests.
+  * Remove a symbol from libqt5script5.symbols that should not be there.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 25 Feb 2015 15:34:04 +0300
+
+qtscript-opensource-src (5.4.1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update debian/watch to use https://download.qt.io/.
+  * Build-depend on qtbase 5.4.1.
+  * Drop upstream_Disable-pthread_np.h-on-BSD-w-GNU-libc.patch, applied
+    upstream.
+  * Refresh s390x_jscore.diff.
+  * Update debian/copyright.
+  * Run the tests during build.
+  * Mark three destructors symbols as optional to fix build with GCC 5
+    (closes: #778093).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 25 Feb 2015 13:13:33 +0300
+
+qtscript-opensource-src (5.4.0+dfsg-2) experimental; urgency=medium
+
+  [ Pino Toscano ]
+  * Backport upstream commit 52e775b4d0e59dfb44c22b070f272dbc21014389 to fix
+    build on GNU/kFreeBSD, making sure that pthread_np.h is not used;
+    patch upstream_Disable-pthread_np.h-on-BSD-w-GNU-libc.patch.
+
+  [ Dmitry Shachnev ]
+  * Update debian/copyright.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 24 Jan 2015 18:14:24 +0300
+
+qtscript-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Build-depend on qtbase 5.4.0.
+  * Add myself to Uploaders.
+  * Update Vcs-Git URL to point to cgit interface.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update debian/copyright.
+  * Use Files-Excluded instead of prune-nonfree.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 16 Dec 2014 17:18:09 +0300
+
 qtscript-opensource-src (5.3.2+dfsg-2) unstable; urgency=medium
 
   * Upload to unstable.

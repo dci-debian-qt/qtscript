@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.2 powerpc ppc64el x32
+# SymbolsHelper-Confirmed: 5.4.1 armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc
 libQt5Script.so.5 libqt5script5 #MINVER#
 | libqt5script5 #MINVER#, qtscript-abi-5-2-0
  _Z14qScriptConnectP7QObjectPKcRK12QScriptValueS5_@Base 5.0.2
@@ -425,7 +425,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZNK28QScriptClassPropertyIterator2idEv@Base 5.0.2
  _ZNK28QScriptClassPropertyIterator5flagsEv@Base 5.0.2
  _ZNK28QScriptClassPropertyIterator6objectEv@Base 5.0.2
- (optional=templinst|arch=ia64)_ZSt9make_heapIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.2.0
+ (optional=templinst)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.4.1
  _ZTI12QScriptClass@Base 5.0.2
  _ZTI13QScriptEngine@Base 5.0.2
  _ZTI17QFactoryInterface@Base 5.0.2
