@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64
+# SymbolsHelper-Confirmed: 5.4.2 amd64
 libQt5ScriptTools.so.5 libqt5scripttools5 #MINVER#
 | libqt5scripttools5 #MINVER#, qtscript-abi-5-2-0
  _ZN21QScriptEngineDebugger11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -16,9 +16,6 @@ libQt5ScriptTools.so.5 libqt5scripttools5 #MINVER#
  _ZN21QScriptEngineDebuggerD0Ev@Base 5.0.2
  _ZN21QScriptEngineDebuggerD1Ev@Base 5.0.2
  _ZN21QScriptEngineDebuggerD2Ev@Base 5.0.2
- (optional=gccinternal)_ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2
  _ZNK21QScriptEngineDebugger10metaObjectEv@Base 5.0.2
  _ZNK21QScriptEngineDebugger14standardWindowEv@Base 5.0.2
  _ZNK21QScriptEngineDebugger22autoShowStandardWindowEv@Base 5.0.2
