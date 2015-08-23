@@ -1,12 +1,11 @@
-qtscript-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.5.0+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump qtbase5-private-dev build-dependency to 5.5.0.
   * Update debian/copyright.
   * Simplify and update libqt5script5.symbols (and fix syntax errors).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2015 20:36:01 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 22 Aug 2015 21:09:33 +0300
 
 qtscript-opensource-src (5.4.2+dfsg-4) unstable; urgency=medium
 
