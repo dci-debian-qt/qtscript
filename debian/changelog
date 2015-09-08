@@ -1,3 +1,32 @@
+qtscript-opensource-src (5.5.0+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump qtbase5-private-dev build-dependency to 5.5.0.
+  * Update debian/copyright.
+  * Simplify and update libqt5script5.symbols (and fix syntax errors).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 22 Aug 2015 21:09:33 +0300
+
+qtscript-opensource-src (5.4.2+dfsg-4) unstable; urgency=medium
+
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 07 Aug 2015 13:55:07 -0300
+
+qtscript-opensource-src (5.4.2+dfsg-3) unstable; urgency=medium
+
+  * Update symbols files with buildds' logs.
+  * Update symbols files with current build log against gcc5.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 07 Aug 2015 10:50:59 -0300
+
+qtscript-opensource-src (5.4.2+dfsg-2) unstable; urgency=medium
+
+  * Upload to unstable.
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 23 Jun 2015 09:26:32 -0300
+
 qtscript-opensource-src (5.4.2+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
