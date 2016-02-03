@@ -30,10 +30,5 @@ override_dh_auto_install-indep:
 override_dh_install:
 	dh_install --fail-missing
 
-override_dh_makeshlibs:
-	dh_makeshlibs
-	# Check for private symbols not marked as such. Be verbose.
-	pkgkde-mark-private-symbols debian/qtscript5-private-dev/usr/include
-
 override_dh_auto_test:
 	xvfb-run -a dh_auto_test

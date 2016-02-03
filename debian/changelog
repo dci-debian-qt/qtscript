@@ -13,6 +13,8 @@ qtscript-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
     - Add libqt5sql5-sqlite and qttools5-dev-tools to Build-Depends-Indep.
   * Update the symbols files using the migrate-symbols script and from the
     current build log.
+  * Stop running pkgkde-mark-private-symbols on build time. The new way is
+    running pkgkde-mark-qt5-private-symbols after every symbols update.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Feb 2016 14:10:26 -0300
 
