@@ -5,6 +5,10 @@ qtscript-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols files with buildds' logs.
   * Bump Qt build dependencies.
 
+  [ Dmitry Shachnev ]
+  * Update debian/watch to track experimental releases (needs to be reverted
+    before uploading 5.6.0 final).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Feb 2016 14:10:26 -0300
 
 qtscript-opensource-src (5.5.1+dfsg-2) unstable; urgency=medium
