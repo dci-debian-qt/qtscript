@@ -1,4 +1,4 @@
-qtscript-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream beta release.
@@ -17,7 +17,7 @@ qtscript-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
     running pkgkde-mark-qt5-private-symbols after every symbols update.
   * Bump the ABI version to 5-6-0.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Feb 2016 14:10:26 -0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 03 Feb 2016 14:06:33 +0300
 
 qtscript-opensource-src (5.5.1+dfsg-2) unstable; urgency=medium
 
