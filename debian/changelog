@@ -15,6 +15,7 @@ qtscript-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
     current build log.
   * Stop running pkgkde-mark-private-symbols on build time. The new way is
     running pkgkde-mark-qt5-private-symbols after every symbols update.
+  * Bump the ABI version to 5-6-0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Feb 2016 14:10:26 -0300
 
