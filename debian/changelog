@@ -1,6 +1,5 @@
-qtscript-opensource-src (5.6.0~rc+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.6.0~rc+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release candidate.
   * Bump qtbase5-private-dev build-dependency to 5.6.0~rc.
   * Use recommended https URIs for Vcs fields.
@@ -8,7 +7,7 @@ qtscript-opensource-src (5.6.0~rc+dfsg-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.7, no changes needed.
   * Drop enable-make-check.patch, seems to be not needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Mar 2016 21:48:49 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 05 Mar 2016 22:56:13 +0300
 
 qtscript-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
 
