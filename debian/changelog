@@ -6,6 +6,8 @@ qtscript-opensource-src (5.6.0+dfsg-1) UNRELEASED; urgency=medium
     - Restore debian/watch to official releases.
   * Update symbols files with buildds' logs.
   * Add the dfsg suffix when repacking tarballs using uscan.
+  * Add source lintian-overrides for javascript tests that Lintian sees as
+    minified files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Mar 2016 12:46:49 -0300
 
