@@ -4,6 +4,7 @@ qtscript-opensource-src (5.6.0+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
     - Restore debian/watch to official releases.
+  * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Mar 2016 12:46:49 -0300
 
