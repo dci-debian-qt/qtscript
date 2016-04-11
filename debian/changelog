@@ -1,3 +1,47 @@
+qtscript-opensource-src (5.6.0+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+    - Restore debian/watch to official releases.
+  * Update symbols files with buildds' logs.
+  * Add the dfsg suffix when repacking tarballs using uscan.
+  * Add source lintian-overrides for javascript tests that Lintian sees as
+    minified files.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 19 Mar 2016 13:49:17 -0300
+
+qtscript-opensource-src (5.6.0~rc+dfsg-1) experimental; urgency=medium
+
+  * New upstream release candidate.
+  * Bump qtbase5-private-dev build-dependency to 5.6.0~rc.
+  * Use recommended https URIs for Vcs fields.
+  * Run tests outside Xvfb, it is not needed.
+  * Bump Standards-Version to 3.9.7, no changes needed.
+  * Drop enable-make-check.patch, seems to be not needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 05 Mar 2016 22:56:13 +0300
+
+qtscript-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream beta release.
+  * Update symbols files with buildds' logs.
+  * Bump Qt build dependencies.
+
+  [ Dmitry Shachnev ]
+  * Update debian/watch to track experimental releases (needs to be reverted
+    before uploading 5.6.0 final).
+  * Re-enable building the documentation.
+    - See debian/README.source in qtbase for details on how we handle it.
+    - Add libqt5sql5-sqlite and qttools5-dev-tools to Build-Depends-Indep.
+  * Update the symbols files using the migrate-symbols script and from the
+    current build log.
+  * Stop running pkgkde-mark-private-symbols on build time. The new way is
+    running pkgkde-mark-qt5-private-symbols after every symbols update.
+  * Bump the ABI version to 5-6-0.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 03 Feb 2016 14:06:33 +0300
+
 qtscript-opensource-src (5.5.1+dfsg-2) unstable; urgency=medium
 
   * Upload to unstable.
