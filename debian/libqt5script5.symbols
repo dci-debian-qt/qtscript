@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.7.0 amd64 hurd-i386
 libQt5Script.so.5 libqt5script5 #MINVER#
 | libqt5script5 #MINVER#, qtscript-abi-5-6-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -435,7 +435,7 @@ libQt5Script.so.5 libqt5script5 #MINVER#
  _ZNK28QScriptClassPropertyIterator2idEv@Qt_5 5.6.0~beta
  _ZNK28QScriptClassPropertyIterator5flagsEv@Qt_5 5.6.0~beta
  _ZNK28QScriptClassPropertyIterator6objectEv@Qt_5 5.6.0~beta
- (optional=templinst|arch=armel armhf i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.1
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.1
  _ZTI12QScriptClass@Qt_5 5.6.0~beta
  _ZTI13QScriptEngine@Qt_5 5.6.0~beta
  _ZTI18QScriptEngineAgent@Qt_5 5.6.0~beta
