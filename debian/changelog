@@ -1,8 +1,25 @@
-qtscript-opensource-src (5.7.0+dfsg-0neon) xenial; urgency=medium
+qtscript-opensource-src (5.7.1~20161021+dfsg-2) unstable; urgency=medium
 
-  * New release
+  * Update symbols files with buildds' logs.
 
- -- Neon CI <neon@kde.org>  Mon, 27 Jun 2016 15:04:51 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 01 Nov 2016 08:46:37 -0300
+
+qtscript-opensource-src (5.7.1~20161021+dfsg-1) experimental; urgency=medium
+
+  * New upstream pre-release.
+    - Bump Qt build dependencies.
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 22 Oct 2016 16:23:11 -0300
+
+qtscript-opensource-src (5.7.0+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update debian/libqt5script5.symbols from 5.6.1 build log.
+  * Bump Qt build-dependencies to 5.7.0.
+  * Add Qt_5.7 version tag to the symbols files.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 05 Jul 2016 22:02:54 +0300
 
 qtscript-opensource-src (5.6.1+dfsg-2) unstable; urgency=medium
 
