@@ -1,8 +1,8 @@
-qtscript-opensource-src (5.7.1-0neon) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.7.1+dfsg-0neon) UNRELEASED; urgency=medium
 
   * neon build
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:36:53 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Jan 2017 09:36:36 +0000
 
 qtscript-opensource-src (5.7.1~20161021+dfsg-2) unstable; urgency=medium
 
