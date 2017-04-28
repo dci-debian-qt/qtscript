@@ -7,6 +7,7 @@ qtscript-opensource-src (5.9.0~beta+dfsg-1) UNRELEASED; urgency=medium
   * Migrate to automatic dbgsym packages.
   * Add support for “nodoc” build profile.
   * Ignore the tests failures for now, will be investigated later.
+  * Remove the debian/copyright entry for dropped ce-compat code.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Apr 2017 21:47:23 +0300
 
