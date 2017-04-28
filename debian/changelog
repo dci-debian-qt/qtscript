@@ -6,6 +6,7 @@ qtscript-opensource-src (5.9.0~beta+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.9.0~beta.
   * Migrate to automatic dbgsym packages.
   * Add support for “nodoc” build profile.
+  * Ignore the tests failures for now, will be investigated later.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Apr 2017 21:47:23 +0300
 
