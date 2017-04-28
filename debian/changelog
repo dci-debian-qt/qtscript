@@ -1,6 +1,5 @@
-qtscript-opensource-src (5.9.0~beta+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.9.0~beta3+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream beta release.
   * Update debian/watch to track development releases.
   * Bump Qt build-dependencies to 5.9.0~beta.
@@ -9,7 +8,7 @@ qtscript-opensource-src (5.9.0~beta+dfsg-1) UNRELEASED; urgency=medium
   * Ignore the tests failures for now, will be investigated later.
   * Remove the debian/copyright entry for dropped ce-compat code.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Apr 2017 21:47:23 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 28 Apr 2017 14:58:31 +0300
 
 qtscript-opensource-src (5.7.1~20161021+dfsg-2) unstable; urgency=medium
 
