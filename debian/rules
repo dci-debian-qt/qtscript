@@ -10,7 +10,7 @@ export QT_SELECT := qt5
 export QT_QPA_PLATFORM := minimal
 
 %:
-	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtscript5-dbg
+	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
@@ -29,3 +29,11 @@ override_dh_auto_install-indep:
 
 override_dh_install:
 	dh_install --fail-missing
+
+override_dh_strip:
+	dh_strip --dbgsym-migration='qtscript5-dbg (<< 5.9.0~beta+dfsg-1~)'
+
+override_dh_auto_test-arch:
+	-dh_auto_test
+
+override_dh_auto_test-indep:

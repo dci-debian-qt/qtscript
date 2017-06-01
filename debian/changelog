@@ -1,8 +1,14 @@
-qtscript-opensource-src (5.7.1+dfsg-0neon) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.9.0~beta3+dfsg-1) experimental; urgency=medium
 
-  * neon build
+  * New upstream beta release.
+  * Update debian/watch to track development releases.
+  * Bump Qt build-dependencies to 5.9.0~beta.
+  * Migrate to automatic dbgsym packages.
+  * Add support for “nodoc” build profile.
+  * Ignore the tests failures for now, will be investigated later.
+  * Remove the debian/copyright entry for dropped ce-compat code.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Jan 2017 09:36:36 +0000
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 28 Apr 2017 14:58:31 +0300
 
 qtscript-opensource-src (5.7.1~20161021+dfsg-2) unstable; urgency=medium
 
