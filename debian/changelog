@@ -1,3 +1,9 @@
+qtscript-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 13 Jun 2017 13:02:05 -0500
+
 qtscript-opensource-src (5.9.0~beta3+dfsg-1) experimental; urgency=medium
 
   * New upstream beta release.
