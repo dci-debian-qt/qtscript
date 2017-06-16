@@ -1,4 +1,4 @@
-qtscript-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.9.0+dfsg-1) experimental; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -10,7 +10,7 @@ qtscript-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
   * Export QT_LOGGING_RULES="default.debug=true" to unbreak the tests
     (this is needed to override settings from our new qtlogging.ini file).
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 13 Jun 2017 13:02:05 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 16 Jun 2017 12:02:34 -0500
 
 qtscript-opensource-src (5.9.0~beta3+dfsg-1) experimental; urgency=medium
 
