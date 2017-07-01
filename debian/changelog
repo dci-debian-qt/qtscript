@@ -1,13 +1,12 @@
-qtscript-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.9.1+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/libqt5script5.symbols from buildds’ logs.
   * Bump Standards-Version to 4.0.0, no changes needed.
   * Bump Qt build-dependencies to 5.9.1.
   * Simplify debian/watch to track only stable releases.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jul 2017 21:28:42 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 01 Jul 2017 22:36:26 +0300
 
 qtscript-opensource-src (5.9.0+dfsg-1) experimental; urgency=medium
 
