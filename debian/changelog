@@ -1,3 +1,9 @@
+qtscript-opensource-src (5.9.1-0neon) UNRELEASED; urgency=medium
+
+  * New release
+
+ -- Jonathan Riddell <jr@jriddell.org>  Fri, 30 Jun 2017 13:40:48 +0100
+
 qtscript-opensource-src (5.9.0+dfsg-1) experimental; urgency=medium
 
   [ Simon Quigley ]
