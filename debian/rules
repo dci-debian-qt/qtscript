@@ -24,6 +24,11 @@ override_dh_auto_install-arch:
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
+	# Remove private headers
+	rm -rf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtScript/5.*
+	rm -rf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtScriptTools/5.*
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/qt_lib_*_private.pri
+
 override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
