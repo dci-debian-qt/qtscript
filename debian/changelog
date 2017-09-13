@@ -1,3 +1,14 @@
+qtscript-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Drop qtscript5-private-dev package, there are no remaining reverse
+    dependencies.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 15 Aug 2017 22:05:47 -0300
+
 qtscript-opensource-src (5.9.1+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
