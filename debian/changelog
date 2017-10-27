@@ -3,6 +3,7 @@ qtscript-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
+  * Use debhelper compat level 10 and dh_missing.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Oct 2017 20:53:33 +0300
 
