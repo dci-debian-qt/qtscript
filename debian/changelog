@@ -1,6 +1,5 @@
-qtscript-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.9.2+dfsg-1) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
   * Use debhelper compat level 10 and dh_missing.
@@ -8,7 +7,7 @@ qtscript-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
   * Stop using deprecated Priority: extra.
   * Bump Standards-Version to 4.1.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Oct 2017 20:53:33 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 21:03:34 +0300
 
 qtscript-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
 
