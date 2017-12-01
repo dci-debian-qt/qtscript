@@ -9,7 +9,6 @@ qtscript-opensource-src (5.9.2+dfsg-1) unstable; urgency=medium
 
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
-  * Use debhelper compat level 10 and dh_missing.
   * Update debian/libqt5script5.symbols from buildds’ logs.
   * Stop using deprecated Priority: extra.
   * Bump Standards-Version to 4.1.1.
