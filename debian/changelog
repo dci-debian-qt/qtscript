@@ -6,6 +6,7 @@ qtscript-opensource-src (5.9.3+dfsg-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
+  * Bump build deps.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Nov 2017 16:36:58 -0300
 
