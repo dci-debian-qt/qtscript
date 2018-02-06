@@ -97,3 +97,14 @@ Description: Qt 5 script HTML documentation
  This package contains the HTML documentation for the Qt 5 script
  libraries.
 
+Package: qtscript5-private-dev
+Section: oldlibs
+Architecture: any
+Multi-Arch: same
+Depends: qtscript5-dev,
+         ${misc:Depends}
+Description: Qt 5 script development files - transitional
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package is transitional for qtscript5-dev.
