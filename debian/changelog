@@ -1,3 +1,9 @@
+qtscript-opensource-src (5.9.4+dfsg-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 13 Feb 2018 23:20:10 -0600
+
 qtscript-opensource-src (5.9.2+dfsg-2) unstable; urgency=medium
 
   * Do not call qmake directly anymore (Closes: #880934). Depend upon
