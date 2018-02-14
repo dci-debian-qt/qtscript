@@ -1,10 +1,12 @@
-qtscript-opensource-src (5.9.3+dfsg-0ubuntu1) bionic; urgency=medium
+qtscript-opensource-src (5.9.2+dfsg-2) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not call qmake directly anymore (Closes: #880934). Depend upon
     debhelper >= 10.9.2~ to get the proper fix.
 
-  [ Simon Quigley ]
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 03 Dec 2017 13:20:11 -0300
+
+qtscript-opensource-src (5.9.3+dfsg-0ubuntu1) bionic; urgency=medium
+
   * New upstream release.
   * Bump build deps.
   * Bump Standards-version to 4.1.2, no changes needed.
