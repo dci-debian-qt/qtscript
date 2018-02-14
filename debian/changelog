@@ -4,6 +4,23 @@ qtscript-opensource-src (5.10.0~beta2+dfsg-0neon) UNRELEASED; urgency=medium
 
  -- Jonathan Riddell <jr@jriddell.org>  Wed, 13 Sep 2017 13:18:31 +0100
 
+qtscript-opensource-src (5.9.3+dfsg-0neon) UNRELEASED; urgency=medium
+
+  * New release
+  * new release
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
+
+qtscript-opensource-src (5.9.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.2.
+  * Update debian/libqt5script5.symbols from buildds’ logs.
+  * Stop using deprecated Priority: extra.
+  * Bump Standards-Version to 4.1.1.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 21:03:34 +0300
+
 qtscript-opensource-src (5.9.1+dfsg-2) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
