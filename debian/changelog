@@ -1,9 +1,22 @@
+qtscript-opensource-src (5.10.0+dfsg-0neon) UNRELEASED; urgency=medium
+
+  * 5.10
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 13 Sep 2017 13:18:31 +0100
+
 qtscript-opensource-src (5.9.3+dfsg-0neon) UNRELEASED; urgency=medium
 
   * New release
   * new release
 
  -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
+
+qtscript-opensource-src (5.9.2+dfsg-2) unstable; urgency=medium
+
+  * Do not call qmake directly anymore (Closes: #880934). Depend upon
+    debhelper >= 10.9.2~ to get the proper fix.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 03 Dec 2017 13:20:11 -0300
 
 qtscript-opensource-src (5.9.2+dfsg-1) unstable; urgency=medium
 
