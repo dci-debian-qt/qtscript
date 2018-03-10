@@ -5,6 +5,7 @@ qtscript-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
     - Bump Qt build dependencies.
   * Bump Standards-Version to 4.1.3, no changes required.
   * Bump debhelper compat to 11.
+  * Switch Vcs-[Git Browser] to salsa.debian.org.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Mar 2018 16:00:46 -0300
 
