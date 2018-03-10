@@ -7,6 +7,7 @@ qtscript-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump debhelper compat to 11.
   * Switch Vcs-[Git Browser] to salsa.debian.org.
   * Update debian/watch to fillow new upstream naming scheme.
+  * Update symbols files with current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Mar 2018 16:00:46 -0300
 
