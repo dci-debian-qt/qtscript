@@ -1,8 +1,8 @@
-qtscript-opensource-src (5.9.5+dfsg-0ubuntu1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.9.5+dfsg-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 14 Apr 2018 15:09:10 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 14 Apr 2018 15:12:16 -0500
 
 qtscript-opensource-src (5.9.4+dfsg-0ubuntu1) bionic; urgency=medium
 
