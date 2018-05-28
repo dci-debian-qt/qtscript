@@ -16,26 +16,6 @@ qtscript-opensource-src (5.10.1+dfsg-1) experimental; urgency=medium
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 10 Mar 2018 16:29:04 -0300
 
-qtscript-opensource-src (5.10.1+dfsg-0neon) xenial; urgency=medium
-
-  * 5.10.1
-
- -- Bhushan Shah <bshah@kde.org>  Tue, 20 Mar 2018 12:46:13 +0000
-
-qtscript-opensource-src (5.10.0+dfsg-0neon) xenial; urgency=medium
-
-  [ Jonathan Riddell ]
-  * 5.10
-
- -- Bhushan Shah <bshah@kde.org>  Tue, 20 Mar 2018 12:27:10 +0000
-
-qtscript-opensource-src (5.9.3+dfsg-0neon) UNRELEASED; urgency=medium
-
-  * New release
-  * new release
-
- -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
-
 qtscript-opensource-src (5.9.2+dfsg-2) unstable; urgency=medium
 
   * Do not call qmake directly anymore (Closes: #880934). Depend upon
@@ -47,6 +27,7 @@ qtscript-opensource-src (5.9.2+dfsg-1) unstable; urgency=medium
 
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
+  * Use debhelper compat level 10 and dh_missing.
   * Update debian/libqt5script5.symbols from buildds’ logs.
   * Stop using deprecated Priority: extra.
   * Bump Standards-Version to 4.1.1.
