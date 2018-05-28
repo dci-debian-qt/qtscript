@@ -1,3 +1,21 @@
+qtscript-opensource-src (5.10.1+dfsg-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 16:47:52 -0300
+
+qtscript-opensource-src (5.10.1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Bump Standards-Version to 4.1.3, no changes required.
+  * Bump debhelper compat to 11.
+  * Switch Vcs-[Git Browser] to salsa.debian.org.
+  * Update debian/watch to fillow new upstream naming scheme.
+  * Update symbols files with current build log.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 10 Mar 2018 16:29:04 -0300
+
 qtscript-opensource-src (5.10.1+dfsg-0neon) xenial; urgency=medium
 
   * 5.10.1
