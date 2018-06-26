@@ -1,6 +1,5 @@
-qtscript-opensource-src (5.11.1+dfsg-1) UNRELEASED; urgency=medium
+qtscript-opensource-src (5.11.1+dfsg-1) experimental; urgency=medium
 
-  [ Simon Quigley ]
   * New upstream release.
   * Bump Standards-version to 4.1.4, no changes needed.
   * Remove ~ from debhelper dependency.
@@ -10,7 +9,7 @@ qtscript-opensource-src (5.11.1+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols from amd64 build logs.
   * Update copyright ref URL.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Jun 2018 00:03:30 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 26 Jun 2018 14:26:38 -0500
 
 qtscript-opensource-src (5.10.1+dfsg-2) unstable; urgency=medium
 
