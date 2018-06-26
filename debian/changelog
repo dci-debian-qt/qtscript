@@ -1,5 +1,8 @@
 qtscript-opensource-src (5.11.1+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
+  * New upstream release.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Jun 2018 00:03:30 -0500
 
 qtscript-opensource-src (5.10.1+dfsg-2) unstable; urgency=medium
