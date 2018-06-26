@@ -5,6 +5,8 @@ qtscript-opensource-src (5.11.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump Standards-version to 4.1.4, no changes needed.
   * Remove ~ from debhelper dependency.
   * Bump build dependencies to 5.11.1.
+  * Remove the dbgsym migration section of debian/rules; it isn't needed
+    anymore.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Jun 2018 00:03:30 -0500
 
