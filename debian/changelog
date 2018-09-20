@@ -1,8 +1,21 @@
-qtscript-opensource-src (5.11.1+dfsg-0neon) xenial; urgency=medium
+qtscript-opensource-src (5.11.1+dfsg-2) unstable; urgency=medium
 
-  * Release to neon
+  * Upload to Sid.
 
- -- Bhushan Shah <bshah@kde.org>  Mon, 28 May 2018 03:56:42 +0000
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 04:49:31 -0500
+
+qtscript-opensource-src (5.11.1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-version to 4.1.4, no changes needed.
+  * Remove ~ from debhelper dependency.
+  * Bump build dependencies to 5.11.1.
+  * Remove the dbgsym migration section of debian/rules; it isn't needed
+    anymore.
+  * Update symbols from amd64 build logs.
+  * Update copyright ref URL.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 26 Jun 2018 14:26:38 -0500
 
 qtscript-opensource-src (5.10.1+dfsg-2) unstable; urgency=medium
 
