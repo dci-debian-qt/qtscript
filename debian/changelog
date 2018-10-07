@@ -3,6 +3,7 @@ qtscript-opensource-src (5.11.2+dfsg-1) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * New upstream release.
   * Bump Standards-version to 4.2.1, no changes needed.
+  * Bump Qt build dependencies to 5.11.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Oct 2018 18:54:39 -0500
 
