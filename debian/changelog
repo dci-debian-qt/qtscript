@@ -1,3 +1,9 @@
+qtscript-opensource-src (5.11.2+dfsg-0neon) UNRELEASED; urgency=medium
+
+  * new version
+
+ -- Jonathan Riddell <jr@jriddell.org>  Thu, 20 Sep 2018 16:21:48 +0100
+
 qtscript-opensource-src (5.11.1+dfsg-2) unstable; urgency=medium
 
   * Upload to Sid.
