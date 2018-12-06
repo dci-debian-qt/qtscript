@@ -1,3 +1,8 @@
+qtscript-opensource-src (5.11.2+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 06 Dec 2018 15:47:00 -0300
+
 qtscript-opensource-src (5.11.2+dfsg-2) unstable; urgency=medium
 
   * Refresh debian/patches/disable_failing_tests.diff.
