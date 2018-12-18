@@ -1,5 +1,8 @@
 qtscript-opensource-src (5.11.3+dfsg-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Fix stack base detection on hppa (closes: #916657).
+    Thanks John David Anglin for the patch!
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 18 Dec 2018 12:43:59 +0300
 
